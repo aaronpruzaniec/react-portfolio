@@ -1,18 +1,38 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+
+import HeaderLinks from "./components/HeaderLinks";
+import Item from "./components/Item";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+        <header id="hero" className="masthead mb-auto text-center">
+          <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <main role="main" className="inner cover">
+              <h1 className="cover-heading">Portfolio</h1>
+              <h2>Aaron Pruzaniec</h2>
+            </main>
+            <HeaderLinks />
+          </div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div id="main">
+          <div className="container">
+            <div className="row">
+              <Item />
+              <Item />
+              <Item />
+              <Item />
+              <Item />
+              <Item />
+              <Item />
+            </div>
+          </div>
+        </div>
+        <footer className="container-fluid text-center" />
       </div>
     );
   }
