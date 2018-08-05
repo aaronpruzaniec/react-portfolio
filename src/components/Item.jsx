@@ -184,7 +184,7 @@ class Item extends Component {
             href={items.link}
             style={{
               backgroundImage:
-                "url(http://pruzaniec.com/portfolio/local-cdn/" +
+                "url(https://pruzaniec.com/portfolio/local-cdn/" +
                 items.thumbnail +
                 ".jpg)"
             }}
