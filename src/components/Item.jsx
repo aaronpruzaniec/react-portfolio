@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class Item extends Component {
-  props = {
+  state = {
     items: [
       {
         name: "Become an Affiliate",
@@ -139,16 +139,6 @@ class Item extends Component {
         year: "2010",
         tags: ["ui", "ux"]
       }
-      // {
-      //   name: '',
-      //   thumbnail: '',
-      //   description: '',
-      //   link: '',
-      //   year: '',
-      //   tags: [
-
-      //   ]
-      // },
     ],
     map: {
       javascript: {
@@ -177,31 +167,40 @@ class Item extends Component {
       }
     }
   };
-
   render() {
-    return (
-      <div className="col-sm-4 outer">
-        <a
-          className="item"
-          href="gwynniebee/pages_v6/become_an_affiliate"
-          style={{
-            backgroundImage:
-              "url(http://pruzaniec.com/portfolio/local-cdn/become_an_affiliate.jpg)"
-          }}
-        />
-        {/* {this.props.items.map(item => <div>{item.name}</div>)} */}
-        <h3 className="pt-4">Become an Affiliate</h3>
-        <ul className="descArea list-unstyled mt-2 mb-4">
-          <li>2018 — Randomly generated fly in animation</li>
-          <li className="pt-2 pillsOuter">
-            <span className="badge badge-pill badge-dark">javascript</span>{" "}
-            <span className="badge badge-pill badge-dark">html</span>{" "}
-            <span className="badge badge-pill badge-dark">landingPage</span>{" "}
-            <span className="badge badge-pill badge-dark">responsive</span>{" "}
-          </li>
-        </ul>
-      </div>
-    );
+    let builtItems = this.state.items.map(items => {
+      let buildSkills = items.tags.map(tags => {
+        return (
+          <span>
+            <span className="badge badge-pill badge-dark">{tags}</span>
+            <span> </span>
+          </span>
+        );
+      });
+      return (
+        <div className="col-sm-4 outer">
+          <a
+            className="item"
+            href={items.link}
+            style={{
+              backgroundImage:
+                "url(http://pruzaniec.com/portfolio/local-cdn/" +
+                items.thumbnail +
+                ".jpg)"
+            }}
+          />
+          <h3 className="pt-4">{items.name}</h3>
+          <ul className="descArea list-unstyled mt-2 mb-4">
+            <li>
+              {items.year} —&nbsp;
+              {items.description}
+            </li>
+            <li className="pt-2 pillsOuter">{buildSkills}</li>
+          </ul>
+        </div>
+      );
+    });
+    return <div className="page row">{builtItems}</div>;
   }
 }
 

@@ -21,13 +21,7 @@ class App extends Component {
         </header>
         <div id="main">
           <div className="container">
-            <div className="row">
-              <Item />
-              <Item />
-              <Item />
-              <Item />
-              <Item />
-              <Item />
+            <div className="">
               <Item />
             </div>
           </div>
