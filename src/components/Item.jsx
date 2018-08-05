@@ -7,7 +7,8 @@ class Item extends Component {
         name: "Become an Affiliate",
         thumbnail: "become_an_affiliate",
         description: "Randomly generated fly in animation",
-        link: "gwynniebee/pages_v6/become_an_affiliate",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages_v6/become_an_affiliate",
         year: "2018",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -15,7 +16,8 @@ class Item extends Component {
         name: "How It Works",
         thumbnail: "how_it_works",
         description: "Buttons transform into a modal",
-        link: "gwynniebee/pages_v6/how_it_works/",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages_v6/how_it_works/",
         year: "2018",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -23,7 +25,8 @@ class Item extends Component {
         name: "Sun Kissed Style Lookbook",
         thumbnail: "sun_kissed_style_lookbook",
         description: "Details scale effortlessly, loads fast",
-        link: "gwynniebee/pages/sun_kissed_style_lookbook",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/sun_kissed_style_lookbook",
         year: "2017",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -31,7 +34,8 @@ class Item extends Component {
         name: "Summer Lookbook 2017",
         thumbnail: "summer_lookbook_2017",
         description: "Tight shoot with 24-hour turnaround",
-        link: "gwynniebee/pages/summer_lookbook_2017",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/summer_lookbook_2017",
         year: "2017",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -39,7 +43,8 @@ class Item extends Component {
         name: "Tracy Reese Lookbook",
         thumbnail: "tracy_reese_lookbook",
         description: "Exclusive collaboration",
-        link: "gwynniebee/pages/tracy_reese_lookbook",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/tracy_reese_lookbook",
         year: "2017",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -55,7 +60,8 @@ class Item extends Component {
         name: "Spring Lookbook 2017",
         thumbnail: "spring_lookbook_2017",
         description: "Road trip inspired photo shoot",
-        link: "gwynniebee/pages/spring_lookbook_2017",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/spring_lookbook_2017",
         year: "2016",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -63,7 +69,8 @@ class Item extends Component {
         name: "Slot Machine",
         thumbnail: "slot_machine",
         description: "Optimized page with 3D animation",
-        link: "gwynniebee/pages/slot_machine",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/slot_machine",
         year: "2016",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -71,7 +78,8 @@ class Item extends Component {
         name: "Party Perfect Lookbook",
         thumbnail: "party_perfect_lookbook",
         description: "Shot and coded in half a week",
-        link: "gwynniebee/pages/party_perfect_lookbook",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/party_perfect_lookbook",
         year: "2016",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -79,7 +87,8 @@ class Item extends Component {
         name: "Unlimited Fashion",
         thumbnail: "unlimited_fashion_e",
         description: "Landing page for Facebook ads",
-        link: "gwynniebee/pages/unlimited_fashion_e",
+        link:
+          "http://pruzaniec.com/portfolio-non-react/gwynniebee/pages/unlimited_fashion_e",
         year: "2015",
         tags: ["javascript", "html", "landingPage", "responsive"]
       },
@@ -87,7 +96,7 @@ class Item extends Component {
         name: "Nexus Properties",
         thumbnail: "nexus_properties",
         description: "Real Estate Homepage prototype",
-        link: "../nexus-properties",
+        link: "http://pruzaniec.com/nexus-properties",
         year: "2014",
         tags: ["javascript", "html", "responsive", "ui", "ux"]
       },
@@ -95,7 +104,7 @@ class Item extends Component {
         name: "Philips Bulb Finder",
         thumbnail: "philips_bulb_finder",
         description: "Built from relational SQL tables",
-        link: "../bulbfinder/selector.php",
+        link: "http://pruzaniec.com/bulbfinder/selector.php",
         year: "2014",
         tags: ["html", "ui", "ux"]
       },
@@ -103,7 +112,7 @@ class Item extends Component {
         name: "Philips Bike Light",
         thumbnail: "philips_bike_light",
         description: "First featuring 2x graphics",
-        link: "../philipsbikelight",
+        link: "http://pruzaniec.com/philipsbikelight",
         year: "2014",
         tags: ["html", "ui", "ux"]
       },
@@ -111,7 +120,7 @@ class Item extends Component {
         name: "VDO REDI-Sensor",
         thumbnail: "vdo_redi_sensor",
         description: "Informative page for tire sensors",
-        link: "../vdoredisensor",
+        link: "http://pruzaniec.com/vdoredisensor",
         year: "2013",
         tags: ["html", "ui", "ux"]
       },
@@ -119,7 +128,7 @@ class Item extends Component {
         name: "VDO RoadLog",
         thumbnail: "vdo_roadlog",
         description: "Product for logging truck hauls",
-        link: "../vdoroadlog",
+        link: "http://pruzaniec.com/vdoroadlog",
         year: "2013",
         tags: ["html", "ui", "ux"]
       },
@@ -127,7 +136,7 @@ class Item extends Component {
         name: "Philips GoPure",
         thumbnail: "philips_gopure",
         description: "Automotive air filter",
-        link: "../philipsgopure",
+        link: "http://pruzaniec.com/philipsgopure",
         year: "2013",
         tags: ["html", "ui", "ux"]
       },
@@ -184,7 +193,7 @@ class Item extends Component {
             href={items.link}
             style={{
               backgroundImage:
-                "url(https://pruzaniec.com/portfolio/local-cdn/" +
+                "url(/portfolio-non-react/local-cdn/" +
                 items.thumbnail +
                 ".jpg)"
             }}

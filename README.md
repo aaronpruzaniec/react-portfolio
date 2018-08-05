@@ -1,1 +1,1 @@
-Adaptation of portfolio into react
+Adaptation of portfolio to react
