@@ -4,10 +4,6 @@ class HeaderLink extends Component {
   state = [
     ["GitHub", "https://github.com/aaronpruzaniec/react-portfolio"],
     ["LinkedIn", "https://www.linkedin.com/in/aaronpruzaniec/"],
-    [
-      "Résumé",
-      "http://pruzaniec.com/portfolio-non-react/pdf/aaron_pruzaniec_resume.pdf"
-    ],
     ["Contact", "mailto:aaronpruzaniec@gmail.com"]
   ];
 

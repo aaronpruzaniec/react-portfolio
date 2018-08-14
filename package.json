@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "homepage": "https://pruzaniec.com/portfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^16.4.2",
